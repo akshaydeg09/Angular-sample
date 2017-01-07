@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <link data-require="bootstrap-css@*" data-semver="3.2.0" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body ng-controller="ctrl">
+  <h1>Temperature Monitor</h1>
+  
+  <form class="form-inline" role="form">
+  <div class="form-group">
+    <label for="temperture">Add Temperture:</label>
+    <input class="form-control" name="temperture" id="temperture" ng-model="currentTemp">
+  </div>
+  <button  ng-click="recordTemperature();" class="btn btn-success">Submit</button>
+  </form>
+  <hr />
+  <section>
+    <div class="row">
+      <div class="col-md-4">
+        <button class="btn btn-primary" ng-click="getCurrentMedian();">Get Median Temperture</button>
+      </div>   
+      <div class="col-md-4 margin-top">
+        <div class="alert alert-success">
+          <strong>Current Median: {{currentMedian}} </strong> 
+        </div>
+      </div>
+    </div>
+    <!-- display current media here-->
+  </section>
+  
+  <div class="panel panel-primary">
+    <div class="panel-heading">Developer Name</div>
+    <div class="panel-body">Akshay</div>
+  </div>
+  
+  <a class="btn btn-warning" href="jasmine-test-runner.html">Run Unit Tests</a>
+  <script data-require="angular.js@*" data-semver="1.3.5" src="https://code.angularjs.org/1.3.5/angular.js"></script>
+  <script src="app.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

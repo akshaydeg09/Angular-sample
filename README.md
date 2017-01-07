@@ -1,17 +1,15 @@
 
+Description:
 
+This is a simple code that demonstrated the temparature monitoring system using AngualarJs
 
-##Evaluation Guidelines 
-
-This plunker project will be used as seed, Building a Temperature Monitor Single Page Application (SPA) using Angular and tested using Jasmine.
-
-**User Story #1**
+Part 1
 As an anonymous end user, I want to be able to enter any number of temperture records by entering a value and then clicking on the "Add" button.
 
-**User Story #2**
+Part 2
 As an anonymous end user,  When I click on the "Get Media Temperture" button, I want to be able to see the median of the entered tempertures records that I have entered.
 
-**User Story #3**
+Part 3
 As an anonymous end user, I want to be prevented from entering invalid value such as a strings in the "temprature" field.
 The UI should inform me that I tried an invalid action.
 

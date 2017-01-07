@@ -1,7 +1,7 @@
 
 Description:
 
-This is a simple code that demonstrated the temparature monitoring system using AngualarJs
+This is a simple code that demonstrates the temparature monitoring system using AngualarJs
 
 Part 1
 As an anonymous end user, I want to be able to enter any number of temperture records by entering a value and then clicking on the "Add" button.
